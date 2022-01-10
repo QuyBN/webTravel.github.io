@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+:root {
+    --bg-light: rgba(54, 19, 84, 0.8);
+    --bg-color: rgb(53, 10, 78);
+    --bg-yellow: #fa9e1b;
+    --bg-white: #fff;
+    --white-color: #fff;
+    --text-white: #f1f1f1;
+    --black: #2d2c2c;
+    --text-black: #000;
+    --text-black1:#2d2d2d;
+    --sub-text: #929191;
+    --bg-btn: linear-gradient(to right, #fa9e1b, #8d4fff, #fa9e1b);
+    --bg-right: linear-gradient( to right, rgb(223, 223, 11),rgb(226, 115, 226));
+    --bg-right-overlay: linear-gradient( to right, rgba(228, 228, 72, 0.6),rgba(157, 38, 157, 0.6));
+    --bg-left: linear-gradient( to  right, rgb(226, 115, 226),rgb(223, 223, 11));
+    
+}
+
+body {
+  color: inherit;
+  font-size: 15px;
+  font-size: inherit;
+
+}
+.container {
+    width: 1200px;
+    margin: 0px auto;
+}
+html {
+    scroll-behavior:smooth ;
+}
+.space-betwent {
+    justify-content: space-between;
+}
+.p_t_d_5{
+    padding: 5px 0;
+}
+.bg_oragen {
+    background-color: #f15a23;
+}
+
+.mb-20 {
+    margin-bottom: 20px !important;
+}
+.mb-30 {
+    margin-bottom: 30px !important;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.border-b {
+    border-bottom: 1px solid #ddd;
+}
+.border-l {
+    border-left: 1px solid #ccc;
+}
+.w-100 {
+    width: 100%;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mt-30 {
+    margin-top: 30px;
+}
+.pt-20 {
+    padding-top: 20px;
+}
+.pt-10 {
+    padding-top: 10px;
+}
+.d-flex {
+    display: flex;
+}
+.tex-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.a-items-center {
+    align-items: center;
+}
+.mt-113 {
+    margin-top: 113px;
+}
+
+.btn {
+    margin-top: 50px;
+    background:var(--bg-right);
+    padding: 10px 50px;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 10px;
+    display:inline-block;
+    border-radius: 20px;
+    color: var(--text-white);
+}
+.btn:hover {
+    background: var(--bg-left);
+}
+
+@keyframes slideFader {
+    from {
+        opacity: 0;
+        top: 100px;
+    }
+    to {
+        opacity: 1;
+        top: 36px;
+    }
+
+}

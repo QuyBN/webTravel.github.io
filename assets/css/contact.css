@@ -1,0 +1,83 @@
+.wrapper__header {
+    background:  url('../img/contact__header.jpg') bottom center /cover fixed no-repeat;
+}
+
+.wrapper__header .discount h1 {
+    font-size:72px;
+    text-shadow: 2px 2px 7px rgb(145 145 145);
+    font-weight: bolder;
+}
+
+.discount {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translateX(-50%);
+}
+
+/* css for contact__item */
+
+.contact__item {
+    margin:100px 0;
+    background: none;
+}
+.contact__item form {
+   width: 100%;
+}
+.contact__item button {
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+/* css for  */
+
+.contact__img img {
+    width: 80%;
+}
+
+.contact__about .footer__about_title a {
+    color: var(--text-black1);
+}
+.contact__about p.footer__about_desc  {
+    line-height: 2;
+    color: var(--sub-text);
+    text-align: justify;
+}
+.contact__about .footer__about_social a  {
+    width:45px;
+    height:45px;
+    margin-right: 9px;
+    border: 2px solid #fa9e1b;
+}
+.contact__about .footer__about_social a i  {
+    font-size: 20px;
+    color: #fa9e1b;
+}
+.contact__about .footer__about_social a:hover {
+    background:none;
+}
+.contact_container .footer__Contact {
+    margin-top: 55px;
+}
+.contact_container .footer__Contact ul li {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.contact_container .footer__Contact ul li a {
+    color: var(--text-black1);
+    margin:0;
+    transition: all 0.3s ease-in;
+    font-weight: 600;
+}
+.contact_container .footer__Contact ul li a:hover {
+    color: #fa9e1b;
+}
+.contact_container .footer__Contact ul li i {
+    color: #fa9e1b;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+

@@ -1,0 +1,164 @@
+
+
+.wrapper__header {
+    background: linear-gradient(rgba(64, 6, 97, 0.275), rgba(64, 6, 97, 0.4)), url(../img/banner_about.jpg) top center /cover  no-repeat;;
+}
+
+.wrapper__header .discount h1 {
+    font-size:80px;
+}
+
+.discount {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translateX(-50%);
+}
+
+
+.intro {
+    background-color: #f6f9fb;
+    padding: 90px 15px 90px 15px;
+}
+.intro .intro_img img {
+    width: 100%;
+}
+
+.intro_title {
+    margin-bottom:30px;
+}
+.intro_desc {
+    font-weight: 500;
+    color: #929191;
+    margin-top: 60px;
+    line-height: 2;
+    text-align: justify;
+    padding-bottom: 35px;
+    font-size: 15px;
+ }
+
+ /* css for statis */
+.statics {
+    padding: 100px 0;
+}
+h1.statics_title, p.statics_desc {
+    text-align: center;
+}
+
+h1.statics_title {
+    font-size:30px;
+    margin-bottom: 30px;
+    color: var(--black);
+}
+p.statics_desc {
+    font-size:15px;
+    color:#a5a5a5;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    
+}
+.statics_year {
+    color:var(--bg-yellow);
+    font-weight:400;
+    text-align:center;
+    display: block;
+}
+
+.statics_blog {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.statics_blog span {
+    display:block;
+    padding:0 10px;
+}
+.statics_blog span:first-child {
+    font-size: 24px;
+    color:var(--black)
+}
+.statics_blog span:last-child {
+    font-size: 14px;
+    color: #929191;
+}
+
+.star__bar {
+    position: relative;
+    height: 44px;
+    display: flex;
+    align-items: center;
+}
+.star_bar_value {
+    position: absolute;
+    left: 50%;
+    top:0;
+    font-weight: 500;
+    color:#a5a5a5;
+    font-size: 13px;
+}
+.star_bar_left {
+    height:3px;
+    width:30%;
+    background: #e1e1e1;
+}
+.star_bar_right {
+    flex:1;
+    background: rgb(49, 18, 75);
+    height:3px;
+}
+
+/* css tour prominent */
+.prominent__items {
+    position: relative;
+    height:295px;
+    margin-bottom: 90px;
+    background: url('../img/about_banner.jpg') center /cover no-repeat ;
+}
+.prominent__content {
+    color: var( --text-white);
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+.item__prominent h1 {
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.item__prominent .item__price {
+    font-size: 18px;
+    margin-bottom: 35px;
+    margin-left: 5px;
+}
+.item__place_btn .btn{
+    margin-top: 0;
+}
+/* css for service_other */
+
+
+.service_other {
+    text-align: center;
+    margin-bottom: 90px;
+}
+.service_img {
+    height:60px;
+}
+.service_other span{
+  display:block;
+}
+
+.service_other_quantity {
+    font-size: 48px;
+    font-weight: 500;
+    color: var(--black);
+    margin-top: 15px;
+}
+.service_other_text {
+    font-size: 14px;
+    font-weight: 500;
+    color: #9a9999;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
